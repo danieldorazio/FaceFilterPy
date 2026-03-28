@@ -18,12 +18,14 @@ from config import (
 # -----------------------------------------------------------------------
 # Import moduli interni (verranno creati nei prossimi step)
 # -----------------------------------------------------------------------
-from utils.loader   import load_accessories
-from core.overlay   import overlay_png, apply_smooth
-from core.face      import apply_glasses, apply_hat, compute_face_metrics
-from core.hands     import compute_hand_metrics
-from ui.sidebar     import draw_sidebar, on_mouse
-from ui.panel       import draw_info_panel
+from utils.loader               import load_accessories
+from core.overlay               import overlay_png, apply_smooth
+from core.hands                 import compute_hand_metrics
+from ui.sidebar                 import draw_sidebar, on_mouse
+from ui.panel                   import draw_info_panel
+from core.face_metrics          import compute_face_metrics
+from core.accessories.glasses   import apply_glasses
+from core.accessories.hat       import apply_hat
 
 # -----------------------------------------------------------------------
 # Inizializzazione MediaPipe

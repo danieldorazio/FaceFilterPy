@@ -79,3 +79,7 @@ LANDMARK_MIDDLE_TIP  = 12     # punta del medio (lunghezza mano)
 # -----------------------------------------------------------------------
 GLASSES_SCALE = 1.8   # larghezza occhiali rispetto alla distanza tra gli occhi
 HAT_SCALE     = 1.4   # larghezza cappello rispetto alla larghezza della testa
+
+# Misure reali occhiale (aggiornale per ogni nuovo occhiale)
+GLASSES_REAL_W_CM = 15.22
+GLASSES_REAL_H_CM =  4.93
